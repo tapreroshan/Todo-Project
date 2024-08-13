@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo App</h1>
+        <div class="todo-form">
+            <input type="text" id="title" placeholder="Todo Title">
+            <input type="text" id="assignee" placeholder="Assignee">
+            <button id="addTodo">Add Todo</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Status</th>
+                    <th>Title</th>
+                    <th>Assignee</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="todo-list"></tbody>
+        </table>
+        <div id="pagination">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+        </div>
+    </div>
+
+  
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Edit Todo</h2>
+            <input type="text" id="modalTitle" placeholder="Todo Title">
+            <input type="text" id="modalAssignee" placeholder="Assignee">
+            <button id="updateTodo">Update Todo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

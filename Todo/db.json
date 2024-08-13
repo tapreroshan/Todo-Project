@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": "2",
+      "title": "Learn Fetch",
+      "status": false,
+      "assignee": "Abdul"
+    },
+    {
+      "id": "3",
+      "title": "Complete All Assignments",
+      "status": false,
+      "assignee": "Mansi"
+    },
+    {
+      "id": "4",
+      "title": "lczxz",
+      "assignee": "zzccs",
+      "status": false
+    },
+    {
+      "id": "5",
+      "title": "zx  x",
+      "assignee": "ddd",
+      "status": false
+    }
+  ]
+}
